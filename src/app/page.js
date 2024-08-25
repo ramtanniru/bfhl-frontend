@@ -45,7 +45,7 @@ export default function Home() {
 
   return (
     <div className=' mx-auto w-10/12 md:w-1/2 gap-3 flex flex-col m-5'>
-      <h1>API INPUT</h1>
+      <h1 className='font-bold'>API INPUT</h1>
       <textarea
         id = "api_input"
         rows="4"
