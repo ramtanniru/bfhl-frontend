@@ -17,7 +17,7 @@ export default function Home() {
       if (!Array.isArray(parsedData.data)) {
         throw new Error("Invalid input format. 'data' should be a list.");
       }
-      const response = await axios.post('http://127.0.0.1:5000/bfhl', {
+      const response = await axios.post('https://bfhl-q97t.vercel.app/bfhl', {
         data: parsedData.data
       });
       setResponseData(response.data);
