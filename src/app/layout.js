@@ -14,7 +14,7 @@ export default function RootLayout({ children }) {
     <html lang="en">
       <body className={inter.className}>
         <Head>
-          <title>21BCE9789</title> {/* Replace with your roll number */}
+          <title>21BCE9789</title>
         </Head>
         {children}
       </body>
